@@ -1,1 +1,133 @@
 
+/* For mobile phones: */
+[class*="all"] {
+    width: 100%;
+}
+
+
+.nav-line{
+  border: 1px solid black;
+  height: 70px;
+  width: 1 px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menu {float:right;
+position:relative; bottom: 130px;}
+
+.Wash {position: relative; left: 400px;bottom: 250px;
+font-family: Georgia, serif;font-size: 300%;color: #B22222;}
+
+.lit{ position:relative; width: 100%;
+bottom: 40px;}
+
+.fancy{ position: relative;
+top: 85px;}
+
+.about{ position: relative;bottom: 100px; font-family: Georgia, serif; font-size: 300%; color:#B22222; }
+.who{ position: relative;margin-right: 400px;bottom: 50px; font-family: sans-serif;color: #808080}
+
+.community{position: relative;font-family: Georgia, serif; font-size: 150%;color: #B22222; bottom: 45px; }
+
+.stuff, .other {position: relative;margin-right: 400px;bottom: 50px; font-family: sans-serif;color: #808080 }
+.who,.stuff, .other {line-height: 20px;}
+.wow{position: relative;float: right; bottom: 595px;width: 400px; height: 650px;}
+.eee{ position: relative; width: 100%; bottom: 600px; }
+.over{ position: relative;bottom: 620px; width: 100%;}
+.close{position: relative;width: 100%; bottom: 640px;}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #B22222;
+  overflow: hidden;
+  bottom: 10px;
+  position: relative;
+  font-family: Georgia, serif;
+  width: 100%
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #B22222;
+  color: white;
+}
+
+
+.column{
+  float: left;
+  width: 33.33%;
+
+  margin: 5px;
+}
+
+.newness{ { position: relative;bottom: 100px; font-family: Georgia, serif; font-size: 300%; color:#B22222; }
+
+#list-builder {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    filter: alpha(opacity=80);
+	opacity: 0.8;
+    display: none;
+}
+
+#popup-box {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #911e26;
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border: 10px solid #FFFFFF;
+    display: none;
+}
+
+#popup-close {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    cursor: pointer;
+    width: 40px;
+}
+
+#popup-box h1 {
+    margin: 0;
+}
+
+#popup-box form {
+    margin-bottom: 0px;
+}
+
+#popup-box input {
+    padding: 10px;
+    border: 1px solid #333;
+    width: 40%;
+}
+
+#popup-box button {
+    padding: 10px;
+    border: 1px solid #333;
+}
